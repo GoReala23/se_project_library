@@ -235,7 +235,7 @@
 .staff {
   padding: 100px 0 140px;
   background-image: url(../images/staff_picks_background.jpg);
-  background-size: contain;
+  background-size: cover;
   flex-direction: column;
   align-content: center;
   display: flex;
@@ -261,12 +261,15 @@
 }
 
 .staff__cards {
-  top: 68px;
+  margin-top: 68px;
   gap: 40px;
   max-width: 760px;
   flex-wrap: wrap;
   display: flex;
   list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .card {
@@ -323,15 +326,13 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  justify-content: space-around;
+  justify-content: center;
   display: flex;
+  gap: 40px;
 }
 
 .step {
-  flex-basis: auto;
-  justify-content: center;
-  gap: 40px;
-  width: 220px;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -360,6 +361,15 @@
   box-sizing: border-box;
   display: flex;
   align-items: baseline;
+  margin: 0 0 0 0;
+}
+
+.about__paragraph {
+  margin-bottom: 32px;
+}
+
+.about__paragraph:last-of-type {
+  margin-bottom: 0;
 }
 
 .about__title {
@@ -376,7 +386,6 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
-  margin-top: 32px;
   padding-left: 120px;
   z-index: 1;
 }
@@ -393,7 +402,7 @@
 
 .footer {
   box-sizing: border-box;
-  background: #000000;
+  background: #1f1f1f;
   color: white;
   padding: 60px 102px 60px 80px;
 }
@@ -436,9 +445,14 @@
   margin-top: 16px;
 }
 
+.footer__list-item:first-of-type {
+  margin-top: 0;
+}
+
 .footer__column-heading {
   font-size: 16px;
-  margin-bottom: 4px;
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .footer__column-link {
@@ -446,6 +460,8 @@
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .footer__column-link:hover {
@@ -455,8 +471,10 @@
 .footer__social-icon {
   height: 16px;
   width: 16px;
+  gap: 10px;
 }
 
 .footer__copyright {
   margin-top: 108px;
+  margin-bottom: 0;
 }
