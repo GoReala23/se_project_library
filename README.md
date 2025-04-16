@@ -6,44 +6,46 @@ The **Triple Peaks Library** is a responsive, single-page website designed as pa
 
 ## Visuals
 
-![Homepage Screenshot](images/homepage-screenshot.png)
+![Header Screenshot](screenshots/header__screenshot)
+![About Screenshot](screenshots/about__screenshot.png)
+![Menu Screenshot](screenshots/menu__screenshot.png)
+![Recipes Screenshot](screenshots/menu__screenshot.png)
 
 _Screenshot of the Triple Peaks Library homepage displaying the main banner and featured books section._
 
-## Live Demo
+## How to View the Project
 
-Experience the live version of the project here: [Triple Peaks Library Live Site](https://goreala23.github.io/se_project_library)
+To preview the project on your local machine:
+
+1. Download or clone the repository:
+
+   git clone https://github.com/GoReala23/se_project_library.git
+
+2. Open the project folder in **VS Code**.
+
+3. Make sure the **Live Server** extension is installed.
+
+4. Right-click on `index.html` and select **“Open with Live Server”**, or click **“Go Live”** in the bottom-right corner of VS Code.
+
+This will launch the site in your browser and simulate a real-time environment for testing and demonstration.
 
 ## Demo Video
 
-Watch a walkthrough of the project: [Triple Peaks Library Demo Video](https://www.youtube.com/watch?v=your-demo-video-link)
+Watch a walkthrough of the project:  
+👉 [Triple Peaks Library Demo Video](https://www.youtube.com/watch?v=your-demo-video-link)
 
-## Deployment & System Requirements
-
-**Technologies Used:**
+## Technologies Used
 
 - HTML5
 - CSS3
 
-**System Requirements:**
+## System Requirements
 
-- Modern web browser (e.g., Chrome, Firefox, Safari)
-- No additional plugins or installations required
-
-**Deployment Instructions:**
-
-1. Clone the repository:
-
-   git clone https://github.com/GoReala23/se_project_library.git
-
-2. Navigate to the project directory:
-
-   cd se_project_library
-
-3. Open `index.html` in your preferred web browser.
+- A modern web browser (e.g., Chrome, Firefox, Safari)
+- **VS Code** with the **Live Server** extension installed
 
 ## Future Improvements
 
-- **Enhance accessibility** using ARIA roles to achieve better support for assistive technologies.
-- **Implement responsive design** using CSS Grid to achieve optimal layout on various screen sizes.
-- **Add interactive elements** using JavaScript to achieve dynamic user engagement.
+- **Enhance accessibility** using ARIA roles to improve support for assistive technologies.
+- **Implement fully responsive design** using CSS Grid and `clamp()` for typography to better support various screen sizes.
+- **Add interactivity** with JavaScript for a more dynamic user experience.
