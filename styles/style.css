@@ -29,7 +29,6 @@
 }
 
 .nav__links {
-  /* Reset default list styles here */
   margin: 8px 0 0;
   display: flex;
   gap: 20px;
@@ -478,4 +477,221 @@
 .footer__copyright {
   margin-top: 108px;
   margin-bottom: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 680px) {
+  .page {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+    font-size: 1.7rem;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav__links {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .header {
+    padding: 20px 16px;
+    height: auto;
+  }
+
+  .header__title,
+  .header__description {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .header__image {
+    position: static;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .events {
+    flex-direction: column;
+    padding: 30px 16px;
+  }
+
+  .events__cover {
+    position: static;
+    margin-top: 20px;
+    max-width: 100%;
+  }
+
+  .person {
+    position: static;
+    margin: 10px auto;
+    justify-content: center;
+  }
+
+  .about {
+    flex-direction: column;
+    padding: 40px 16px;
+  }
+
+  .about__title,
+  .about__content {
+    padding: 0;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .about__circle {
+    display: none;
+  }
+
+  .staff {
+    padding: 40px 16px;
+  }
+
+  .staff__cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    height: auto;
+  }
+
+  .membership {
+    padding: 40px 16px;
+  }
+
+  .membership__steps {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer__columns {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .footer__logo {
+    margin: 0 auto;
+  }
+
+  .footer__column_content_hours,
+  .footer__column_content_social {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 681px) and (max-width: 1024px) {
+  .page {
+    min-width: auto;
+    max-width: 100%;
+    padding: 0 24px;
+    box-sizing: border-box;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 40px 24px;
+  }
+
+  .header__title,
+  .header__description {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .header__image {
+    position: static;
+    max-width: 100%;
+    margin-top: 30px;
+  }
+
+  .events {
+    padding: 40px 24px;
+    flex-direction: column;
+  }
+
+  .events__cover {
+    margin-top: 20px;
+    max-width: 100%;
+    position: static;
+  }
+
+  .person {
+    position: static;
+    margin: 10px auto;
+    justify-content: center;
+  }
+
+  .staff__cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    height: auto;
+  }
+
+  .membership__steps {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 24px;
+  }
+
+  .about {
+    flex-direction: column;
+    padding: 40px 24px;
+  }
+
+  .about__title,
+  .about__content {
+    padding: 0;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .about__circle {
+    display: none;
+  }
+
+  .footer {
+    padding: 24px;
+    text-align: center;
+  }
+
+  .footer__columns {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .footer__logo {
+    margin: 0 auto;
+  }
+
+  .footer__column_content_hours,
+  .footer__column_content_social {
+    margin: 0;
+  }
 }
