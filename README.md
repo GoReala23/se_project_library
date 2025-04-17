@@ -32,7 +32,7 @@ This will launch the site in your browser and simulate a real-time environment f
 ## Demo Video
 
 Watch a walkthrough of the project:  
-👉 [Triple Peaks Library Demo Video](https://www.youtube.com/watch?v=your-demo-video-link)
+👉 [Triple Peaks Library Demo Video](https://www.loom.com/share/9b657579b635443f974b0c9789081a58)
 
 ## Technologies Used
 
