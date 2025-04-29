@@ -8,8 +8,7 @@ The **Triple Peaks Library** is a responsive, single-page website designed as pa
 
 ![Header Screenshot](screenshots/header__screenshot.png)
 ![About Screenshot](screenshots/about__screenshot.png)
-![Menu Screenshot](screenshots/menu__screenshot.png)
-![Recipes Screenshot](screenshots/recicpes__screenshot.png)
+![Staff Pics Screenshot](screenshots/staff-pic__screenshot.png)
 
 _Screenshot of the Triple Peaks Library homepage displaying the main banner and featured books section._
 
